@@ -14,6 +14,16 @@
     <button>Log out</button>
   </form>
 
+  <form action="/photo" method="POST">
+    @csrf
+    <button>Photo Upload</button>
+  </form>
+  
+  <form action="/file" method="POST">
+    @csrf
+    <button>File Upload</button>
+  </form>
+  
   <div style="border: 3px solid black;">
     <h2>Create a New Post</h2>
     <form action="/create-post" method="POST">
